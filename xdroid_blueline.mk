@@ -4,23 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Evolution X stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BOOT_ANIMATION_RES_EVO = true
-EVO_BUILD_TYPE := UNOFFICIAL
-USE_PIXEL_CHARGING := true
-TARGET_SUPPORT_QUICK_TAP := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common Xdroid-OSS stuff.
+XDROID_BOOT := 1080
+XDROID_MAINTAINER := Sqrqzq
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := true
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
 
--include device/google/crosshatch/device-evolution.mk
+-include device/google/crosshatch/device-xdroid.mk
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_MANUFACTURER := Google
-PRODUCT_NAME := evolution_blueline
+PRODUCT_NAME := xdroid_blueline
 PRODUCT_DEVICE := blueline
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 3
