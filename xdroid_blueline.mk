@@ -5,7 +5,6 @@
 #
 
 # Inherit some common Xdroid-OSS stuff.
-XDROID_BOOT := 1080
 XDROID_MAINTAINER := Sqrqzq
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
