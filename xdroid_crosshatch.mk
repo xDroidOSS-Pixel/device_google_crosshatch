@@ -5,7 +5,7 @@
 #
 
 # Inherit some common Xdroid-OSS stuff.
-XDROID_BOOT := 1440
+XDROID_BOOT := M1440
 XDROID_MAINTAINER := Sqrqzq
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
