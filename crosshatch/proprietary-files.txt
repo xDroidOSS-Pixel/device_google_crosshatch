@@ -152,6 +152,13 @@ product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
 product/etc/res/images/charger/main_font.png
 product/etc/res/values/charger/animation.txt
+product/etc/sysconfig/google_build.xml
+product/etc/sysconfig/google-hiddenapi-package-whitelist.xml
+product/etc/sysconfig/nexus.xml
+product/etc/sysconfig/pixel_2018_exclusive.xml
+product/etc/sysconfig/pixel_experience_2017.xml
+product/etc/sysconfig/pixel_experience_2018.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
 -product/framework/libhwinfo.jar
 product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
