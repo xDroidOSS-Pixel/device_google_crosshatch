@@ -262,6 +262,7 @@ vendor/lib64/libqmiservices.so|1d650473d84a44c0a15dba121061e095947447d0
 -system_ext/priv-app/RilConfigService/RilConfigService.apk|f4c12bcc6608ec160b4b2b287d7b913326306138
 -system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED|d2c5ef90ad89633c7e826f5ddcdee9ec6745ffed
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|bffd68ebbd0dc1002cbd8f8970025a1b7fa80476
+system_ext/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml|233f4f01302ed0d89067cbd25624fae045930c79
 system_ext/etc/permissions/google-ril.xml|0e05f1c3eacf5088cb37961e82751186697710c7
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 -system_ext/framework/RadioConfigLib.jar|c027959a0b6168bd0d97cdd6cf90d8a695529e5a
