@@ -165,6 +165,7 @@ product/lib/libdmjavaplugin.so
 product/lib/libsecureuisvc_jni.so
 product/lib64/libsecureuisvc_jni.so|822e7364414d2cfdf7c607b40803f802cf0a8f9f
 -product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
+-product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk;PRESIGNED
 -product/priv-app/DevicePersonalizationPrebuiltPixel3/DevicePersonalizationPrebuiltPixel3.apk;PRESIGNED|992d61469358a62461f0af0dd8db88b36183cdaa
 -product/priv-app/DiagMon/DiagMon.apk
 -product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
