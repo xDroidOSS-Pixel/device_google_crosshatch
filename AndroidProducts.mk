@@ -28,4 +28,6 @@ COMMON_LUNCH_CHOICES := \
     aosp_blueline-userdebug \
     aosp_crosshatch_vf-userdebug \
     xdroid_crosshatch-userdebug \
-    xdroid_blueline-userdebug
+    xdroid_crosshatch-user \
+    xdroid_blueline-userdebug \
+    xdroid_blueline-user
