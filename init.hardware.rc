@@ -494,6 +494,9 @@ on boot
     # Default enable uicc_se
     setprop persist.vendor.radio.uicc_se_enabled true
 
+    # SELinux
+    write /sys/fs/selinux/enforce 1
+    
 service init-radio-sh /vendor/bin/init.radio.sh
     class late_start
     user radio
