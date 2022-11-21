@@ -9,9 +9,10 @@ XDROID_BOOT := 13
 XDROID_MAINTAINER := Sqrqzq.Julius
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_CALL_RECORDING := true
 $(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Inherit device configuration
