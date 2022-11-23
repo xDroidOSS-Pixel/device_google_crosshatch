@@ -5,7 +5,6 @@
 #
 
 # Inherit some common Xdroid-OSS stuff.
-XDROID_BOOT := 13
 XDROID_MAINTAINER := Sqrqzq.Julius
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
