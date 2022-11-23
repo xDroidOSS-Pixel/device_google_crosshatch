@@ -12,6 +12,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/xdroid/config/common.mk)
 
 # Inherit device configuration
