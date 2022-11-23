@@ -18,6 +18,7 @@
          interact with, including the providers that back the implementation of the APIs
          provided by the package. -->
     <allow-association target="com.google.android.as" allowed="com.android.bluetooth" />
+    <allow-association target="com.google.android.as" allowed="com.android.bluetooth.services" />
     <allow-association target="com.google.android.as" allowed="com.android.providers.contacts" />
     <allow-association target="com.google.android.as" allowed="com.android.providers.media" />
     <allow-association target="com.google.android.as" allowed="com.android.providers.telephony" />
